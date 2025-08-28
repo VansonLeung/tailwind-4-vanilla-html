@@ -6,5 +6,5 @@ npm install tailwindcss @tailwindcss/cli
 npx @tailwindcss/cli -i ./src/styles/* -o ./src/dist/styles/global.css --watch
 
 ## Just build css
-npx @tailwindcss/cli -i ./src/styles/* -o ./src/dist/styles/global.css --watch
+npx @tailwindcss/cli -i ./src/styles/* -o ./src/dist/styles/global.css --build
 
